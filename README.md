@@ -96,9 +96,9 @@ The source tables (5) are transformed into a **star schema** consisting of three
 
     vDim_Products (1) ───────────┐
                                  │
-    vDim_Suppliers (1) ─────────┼──────> vFact_SupplyChain (*)
+    vDim_Suppliers (1)  ─────────┼──────> vFact_SupplyChain (*)
                                  │
-    vDim_Date (1) ──────────────┘
+    vDim_Date (1)  ──────────────┘
 
 ---
 
